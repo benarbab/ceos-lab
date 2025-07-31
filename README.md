@@ -15,7 +15,7 @@ It also detects existing `ceos` Docker images and allows the user to pick one in
   - [📂 Directory Structure](#-directory-structure)
   - [🔧 Requirements](#-requirements)
     - [📡 Management Network](#-management-network)
-  - [⏩ Quick Start Manual](#-quick-start-manual)
+  - [⏩ Quick Start](#-quick-start)
     - [Interactive](#interactive)
       - [1️⃣ Generate the docker-compose.yml](#1️⃣-generate-the-docker-composeyml)
       - [2️⃣ Interactive Mode](#2️⃣-interactive-mode)
@@ -129,7 +129,7 @@ If you still prefer to create a macvlan network manually or want to learn more, 
 
 ---
 
-## ⏩ Quick Start Manual
+## ⏩ Quick Start
 
 ### Interactive
 
