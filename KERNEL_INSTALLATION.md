@@ -34,3 +34,24 @@ GRUB_DEFAULT=0
 And add this:
 GRUB_DEFAULT="Advanced options for Ubuntu>Ubuntu, with Linux 5.4.164"
 ```
+
+6. Update the Grub
+
+```bash
+sudo update-grub
+```
+
+7. Reboot
+
+```bash
+sudo reboot
+```
+
+8. Check the Kernel version
+
+```bash
+uname -r
+
+output
+5.4.164
+```
