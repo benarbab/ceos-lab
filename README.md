@@ -9,6 +9,7 @@ It also detects existing `ceos` Docker images and allows the user to pick one in
 
 - [🚀 Docker Topology Generator for cEOS](#-docker-topology-generator-for-ceos)
   - [📑 Table of Contents](#-table-of-contents)
+  - [Requirements](#requirements)
   - [🛑 Before you Begin](#-before-you-begin)
     - [📝 Available Options](#-available-options)
   - [📋 Features](#-features)
@@ -43,6 +44,14 @@ It also detects existing `ceos` Docker images and allows the user to pick one in
 
 ---
 
+## Requirements
+
+- Virtual machine or Bare metal with 24G memory
+- Ubuntu LTS
+- Some Linux Knowledge
+
+---
+
 ## 🛑 Before you Begin
 
 It’s important to run this lab on a host that already supports LLDP and LACP. You might be able to enable LLDP (using lab-helper.py), which can also adjust the MTU on bridge interfaces. However, on most Linux machines, LACP cannot be enabled simply by changing the group_fwd_mask.  
@@ -51,6 +60,7 @@ It’s important to run this lab on a host that already supports LLDP and LACP. 
 
 - Use a Linux with custom kernel to allow LLDP, LACP (Advanced)
 - Use available Linux version used for iOU, EVE-NG, Container-Lab
+- Download the Kernel included in this Repo - You can find it in the main folder - 📄 [Kernel Installation Instructions](KERNEL_INSTALLATION.md)
 
 ---
 
