@@ -1,0 +1,10 @@
+
+🎹 Tmux Cheat Sheet
+------------------------------
+🪄 Prefix: Ctrl+b
+🔷 Navigate Panes: Prefix + arrows
+🔷 Split Horizontally: Prefix + "
+🔷 Split Vertically: Prefix + %
+🔷 Zoom Pane: Prefix + z
+🔷 Cycle Layouts: Prefix + Space
+🔷 Detach: Prefix + d

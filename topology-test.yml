@@ -1,0 +1,11 @@
+management_network: a-136
+subnet_pool: 172.16.0.0/16
+connections:
+- device1: SPINE1
+  intf1: Ethernet1/1
+  device2: LEAF1A
+  intf2: Ethernet1
+- device1: SPINE1
+  intf1: Ethernet1/2
+  device2: LEAF1A
+  intf2: Ethernet2

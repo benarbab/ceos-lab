@@ -1,0 +1,2 @@
+  ceos-lab_docker-LEAF1A-1 — 🟢 running
+  ceos-lab_docker-SPINE1-1 — 🟢 running
