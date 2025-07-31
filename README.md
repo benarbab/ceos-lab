@@ -48,6 +48,8 @@ It also detects existing `ceos` Docker images and allows the user to pick one in
 
 - Virtual machine or Bare metal with 24G memory
 - Ubuntu LTS
+- Docker a and Docker Compose
+- One of the cEOS container image, you can download from Arista website
 - Some Linux Knowledge
 
 ---
