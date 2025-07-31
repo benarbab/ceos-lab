@@ -19,9 +19,18 @@ sudo tar -xzf ~/kernel/modules-5.4.164.tar.gz -C /lib/modules/
 sudo update-grub
 ```
 
-4. Edit the Grub
+4. Open the Grub
 
 ```bash
 sudo nano /etc/default/grub
 ```
 
+5. Edit the file and save
+
+```text
+Comment out this line:
+GRUB_DEFAULT=0
+
+And add this:
+GRUB_DEFAULT="Advanced options for Ubuntu>Ubuntu, with Linux 5.4.164"
+```
